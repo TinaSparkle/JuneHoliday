@@ -3,8 +3,47 @@ html, body {
 
 color: #003366;
 font-family: Arial;
-background-color: #3BB9FF;
+background-color: #b3d9ff;
 
+}
+
+p.small{
+font-size: small;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+img.image_rot {
+    /*background: url(arrow.png) no-repeat;*/
+    width:800px; height:400px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#container {
+  height: 500px;
+  width: 1600px;
+  position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  left: 20px;
+  top: 10px;
 }
 
 /* commenting this out for now, it's too awful!
@@ -12,5 +51,3 @@ p{
 background-color: white;
 }
 */
-
-
